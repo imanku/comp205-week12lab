@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 2000px;
+}
+.menu{
+    position: fixed;
+    top:0px;
+    background-color: yellow;
+    height:7%;
+    text-align: center;
+    width: 100%;
+    opacity: 0.7;
+    font-size: 25px;
+}
+.big-box, .small-box{
+    position: absolute;
+    top: 0px;
+    margin:250px 100px;
+}
+.big-box{
+   background-color: blue;
+   height:700px;
+   width: 700px;
+   z-index: -3;
+}
+.small-box{
+    background-color: red;
+    height:500px;
+    width: 500px;
+    margin:340px 190px;
+    z-index: -2;
+}
+p{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+}
+a{
+  padding-block-start: 80px;
+  padding-inline-start: 180px;  
+  font-size: 30px;
+  font-style: italic;
+  display: block; 
+}
